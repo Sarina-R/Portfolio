@@ -3,14 +3,14 @@ import { EXPERIENCE } from '@/lib/data/experience'
 
 export function CareerAtAGlance() {
   return (
-    <section className='border-b-[6px] border-ink bg-paper px-6 py-16 sm:px-10'>
-      <div className='mx-auto max-w-6xl'>
+    <section className='border-b-[6px] border-ink bg-paper px-6 py-16 sm:px-10 bg-amber-400'>
+      <div className='mx-auto max-w-6xl bg-amber-400'>
         <SectionEyebrow label='career, briefly' color='purple' rotate={2} />
         <div className='relative mt-10 grid grid-cols-1 gap-6 sm:grid-cols-3'>
           {EXPERIENCE.map((r, i) => (
             <div
               key={r.role + r.when}
-              className={`relative border-[3px] border-ink bg-cream p-5 shadow-brutal-sm ${
+              className={`relative border-[3px] border-ink bg-[#f3ecdc] p-5 shadow-brutal-sm ${
                 i % 2 === 0 ? 'sm:mt-0' : 'sm:mt-8'
               }`}
             >

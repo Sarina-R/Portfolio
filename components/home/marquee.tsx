@@ -12,11 +12,10 @@ const TECH = [
 ]
 const HIGHLIGHTS = [
   '3+ Years Shipping Frontend',
-  'Melal Institute',
-  'AVIS',
-  'Persian · RTL',
   'Config-Driven UI',
+  'Accessibility',
   'Pixel-Accurate',
+  'Clean code',
 ]
 
 const MARKS = ['✦', '✎', '✳', '●']

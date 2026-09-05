@@ -5,7 +5,6 @@ import { SkillsGrid } from '@/components/about/skills-grid'
 import { SelectedProjects } from '@/components/about/selected-projects'
 import { Process } from '@/components/about/process'
 import { BeyondFrontend } from '@/components/about/beyond-frontend'
-import { CtaBand } from '@/components/home/cta-band'
 
 export const metadata: Metadata = { title: 'About — Sarina Rezanezhad' }
 
@@ -18,7 +17,6 @@ export default function AboutPage() {
       <SelectedProjects />
       <Process />
       <BeyondFrontend />
-      <CtaBand />
     </>
   )
 }

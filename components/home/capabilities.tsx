@@ -3,9 +3,9 @@ import { CrayonUnderline } from '@/components/ui/crayon-doodle'
 import {
   Boxes,
   SlidersHorizontal,
-  Languages,
   Palette,
   Gauge,
+  Accessibility,
 } from 'lucide-react'
 import { TiltCard } from '../ui/tilt-card'
 
@@ -27,9 +27,9 @@ const CAPS = [
     span: '',
   },
   {
-    title: 'RTL & multilingual by default',
-    body: 'Persian-first interfaces, localized routing, Jalali dates — built in, not bolted on.',
-    icon: Languages,
+    title: 'Accessible by design',
+    body: 'Semantic HTML, keyboard navigation and thoughtful interactions — built so interfaces work for more people.',
+    icon: Accessibility,
     bg: '#FF3D8A',
     text: '#F3ECDC',
     span: '',

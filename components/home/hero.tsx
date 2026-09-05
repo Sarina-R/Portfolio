@@ -62,8 +62,8 @@ export function Hero() {
 
           <p className='max-w-md text-[15px] leading-relaxed text-cream/90 sm:text-base'>
             Nearly three years turning React, Next.js and TypeScript into
-            production products — component systems, complex workflows, and
-            Persian-first RTL applications people actually enjoy using.
+            production products — component systems, complex workflows, people
+            actually enjoy using.
           </p>
 
           <div className='flex flex-wrap items-center gap-3 pt-2'>

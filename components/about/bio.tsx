@@ -24,7 +24,7 @@ export function Bio() {
           web applications in React, Next.js, and TypeScript. I work at the seam
           between UI/UX and engineering — reusable design systems, REST API
           integration, state management, and JSON-driven rendering for
-          multilingual, RTL products. I care about pixel-accuracy,
+          multilingual, RTL support products. I care about pixel-accuracy,
           accessibility, and code that's still pleasant to touch six months
           later.
         </p>
