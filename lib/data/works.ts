@@ -24,7 +24,7 @@ export const WORKS: Work[] = [
     description:
       'A focused case study inside the ops dashboard: a question-authoring tool that non-engineers can trust.',
     role: 'Frontend Developer',
-    tags: ['Zod', 'Field Arrays', 'JSON-driven UI'],
+    tags: ['Next.js', 'JavaScript', 'Zod', 'Field Arrays', 'JSON-driven UI'],
     color: 'gold',
     images: [
       '/work/exam-builder/1.png',
@@ -50,23 +50,14 @@ export const WORKS: Work[] = [
     slug: 'https://brands.firaworldcup.org/ir',
     title: 'JSON-Driven Brand Book Platform',
     tagline:
-      'A configurable, white-label brand book platform where an entire branded website can be generated from data and extended with custom MDX components.',
+      'A white-label brand book platform where an entire branded website can be generated from simple JSON.',
 
     description:
       'A fully configurable brand book platform built with Next.js and TypeScript. The system allows brands to generate and customize their entire brand website through JSON-driven configuration, including themes, colors, typography, layout, and content. It also supports Next.js MDX, allowing each brand to extend the platform with custom interactive components while keeping the core system reusable and scalable.',
 
     role: 'Frontend Developer',
 
-    tags: [
-      'Next.js',
-      'TypeScript',
-      'JSON-Driven Architecture',
-      'MDX',
-      'White-Label',
-      'Dynamic Theming',
-      'Typography System',
-      'Design Systems',
-    ],
+    tags: ['Next.js', 'TypeScript', 'JSON-Driven Architecture', 'White-Label'],
 
     color: 'pink',
 
