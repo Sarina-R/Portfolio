@@ -52,7 +52,7 @@ export default function WorkDetailPage({
           <span
             className={`mt-6 inline-block border-[3px] border-ink px-3 py-1 font-mono text-xs font-bold uppercase ${COLOR_BG[work.color]}`}
           >
-            {work.role} · {work.year}
+            {work.role}
           </span>
 
           <h1 className='mt-4 font-display text-4xl leading-[0.95] text-ink sm:text-6xl'>
