@@ -10,8 +10,10 @@ import { CrayonScribble } from '@/components/ui/crayon-doodle'
 import type { Work } from '@/lib/data/works'
 
 export function FeaturedWork() {
-  const [active, setActive] = useState<Work | null>(null)
-  const featured = WORKS.slice(0, 3)
+  const [active, setActive] = useState<{ work: Work; index: number } | null>(
+    null,
+  )
+  const featured = WORKS.slice(0, 4)
 
   return (
     <section
@@ -38,25 +40,34 @@ export function FeaturedWork() {
           </TransitionLink>
         </div>
 
-        <div className='mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3'>
+        <div className='mt-12 grid grid-cols-1 gap-8 md:grid-cols-2'>
           {featured.map((w, i) => (
             <div
               key={w.id}
               className={
                 i === 0
                   ? 'sm:-rotate-[0.5deg]'
-                  : i === 2
+                  : i === 3
                     ? 'sm:rotate-[0.5deg]'
                     : ''
               }
             >
-              <WorkCard work={w} onOpen={setActive} />
+              <WorkCard
+                work={w}
+                onOpen={(work, index) => setActive({ work, index: index ?? 0 })}
+              />
             </div>
           ))}
         </div>
       </div>
 
-      {active && <WorkLightbox work={active} onClose={() => setActive(null)} />}
+      {active && (
+        <WorkLightbox
+          work={active.work}
+          initialIndex={active.index}
+          onClose={() => setActive(null)}
+        />
+      )}
     </section>
   )
 }

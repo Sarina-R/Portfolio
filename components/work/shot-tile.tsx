@@ -17,16 +17,11 @@ export function ShotTile({
   index,
   color,
   label,
-  fit = 'cover',
 }: {
   src: string
   index: number
   color: WorkColor
   label: string
-  /** "cover" crops to fill the box (default, good for square/grid tiles).
-   *  "contain" scales down to show the whole image, letterboxing if needed
-   *  — use this anywhere the full frame must stay visible, e.g. the lightbox. */
-  fit?: 'cover' | 'contain'
 }) {
   const [broken, setBroken] = useState(false)
   const bg = COLOR_BG[color]
@@ -39,9 +34,7 @@ export function ShotTile({
           src={src}
           alt={label}
           onError={() => setBroken(true)}
-          className={`absolute inset-0 h-full w-full ${
-            fit === 'contain' ? 'object-contain' : 'object-cover'
-          }`}
+          className='absolute inset-0 h-full w-full object-cover'
           draggable={false}
         />
       )}
