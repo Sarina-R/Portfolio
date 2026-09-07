@@ -46,6 +46,62 @@ export const WORKS: Work[] = [
     ],
   },
   {
+    id: 'brand-book',
+    slug: 'https://brands.firaworldcup.org/ir',
+    title: 'JSON-Driven Brand Book Platform',
+    tagline:
+      'A configurable, white-label brand book platform where an entire branded website can be generated from data and extended with custom MDX components.',
+
+    description:
+      'A fully configurable brand book platform built with Next.js and TypeScript. The system allows brands to generate and customize their entire brand website through JSON-driven configuration, including themes, colors, typography, layout, and content. It also supports Next.js MDX, allowing each brand to extend the platform with custom interactive components while keeping the core system reusable and scalable.',
+
+    role: 'Frontend Developer',
+
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'JSON-Driven Architecture',
+      'MDX',
+      'White-Label',
+      'Dynamic Theming',
+      'Typography System',
+      'Design Systems',
+    ],
+
+    color: 'pink',
+
+    images: [
+      '/work/branding/1.webp',
+      '/work/branding/2.webp',
+      '/work/branding/3.webp',
+      '/work/branding/4.webp',
+      '/work/branding/5.webp',
+    ],
+
+    problem:
+      'Traditional brand books are often static documents or custom-built websites, making them difficult to maintain, reuse, or adapt for different brands. The challenge was to build a scalable platform where each brand could have its own visual identity, typography, theme, content, and custom components without requiring a completely new website or codebase.',
+
+    approach: [
+      'Designed the platform around a JSON-driven architecture, allowing an entire brand book website to be configured through structured data rather than hardcoded pages',
+      'Built a reusable white-label system capable of supporting multiple brands with different visual identities from a shared codebase',
+      'Created a dynamic theming system that allows each brand to define and change its own colors, visual styling, and overall website appearance',
+      'Developed a flexible typography system supporting multiple font families within the same brand, such as separate fonts for headings, paragraphs, and other text roles',
+      'Made typography configuration part of the global design system so font choices automatically propagate throughout the entire website',
+      'Integrated Next.js MDX support, allowing brands to create rich content and use custom React components alongside standard documentation',
+      'Designed the component architecture so brands could extend their brand books with custom components without modifying the platform core',
+      'Separated branding configuration, content, and presentation logic to improve maintainability and make the system easier to scale',
+    ],
+
+    results: [
+      'Created a reusable platform capable of generating complete brand book websites from configuration data',
+      'Reduced the need to build a separate website and codebase for every new brand',
+      'Enabled extensive visual customization, including themes, colors, typography, and multiple font roles',
+      'Allowed brands to combine structured brand documentation with custom interactive React components through MDX',
+      'Established a scalable foundation for a commercial white-label brand book product',
+      'Turned the brand book from a static document into a flexible, extensible digital platform that could evolve with each brand',
+    ],
+  },
+  {
     id: 'avis',
     slug: 'https://www.avisengine.com/',
     title: 'AVIS Landing Pages',
@@ -149,62 +205,6 @@ export const WORKS: Work[] = [
       'Improved maintainability through TypeScript, reusable architecture, automated testing, and dynamic content management',
       'Implemented caching and performance optimizations to support a faster and more efficient user experience',
       'Although development and long-term support were unfortunately interrupted due to the situation surrounding the Iran war, the project remains a strong example of scalable frontend architecture and product-oriented engineering',
-    ],
-  },
-  {
-    id: 'brand-book',
-    slug: 'https://brands.firaworldcup.org/ir',
-    title: 'JSON-Driven Brand Book Platform',
-    tagline:
-      'A configurable, white-label brand book platform where an entire branded website can be generated from data and extended with custom MDX components.',
-
-    description:
-      'A fully configurable brand book platform built with Next.js and TypeScript. The system allows brands to generate and customize their entire brand website through JSON-driven configuration, including themes, colors, typography, layout, and content. It also supports Next.js MDX, allowing each brand to extend the platform with custom interactive components while keeping the core system reusable and scalable.',
-
-    role: 'Frontend Developer',
-
-    tags: [
-      'Next.js',
-      'TypeScript',
-      'JSON-Driven Architecture',
-      'MDX',
-      'White-Label',
-      'Dynamic Theming',
-      'Typography System',
-      'Design Systems',
-    ],
-
-    color: 'pink',
-
-    images: [
-      '/work/branding/1.webp',
-      '/work/branding/2.webp',
-      '/work/branding/3.webp',
-      '/work/branding/4.webp',
-      '/work/branding/5.webp',
-    ],
-
-    problem:
-      'Traditional brand books are often static documents or custom-built websites, making them difficult to maintain, reuse, or adapt for different brands. The challenge was to build a scalable platform where each brand could have its own visual identity, typography, theme, content, and custom components without requiring a completely new website or codebase.',
-
-    approach: [
-      'Designed the platform around a JSON-driven architecture, allowing an entire brand book website to be configured through structured data rather than hardcoded pages',
-      'Built a reusable white-label system capable of supporting multiple brands with different visual identities from a shared codebase',
-      'Created a dynamic theming system that allows each brand to define and change its own colors, visual styling, and overall website appearance',
-      'Developed a flexible typography system supporting multiple font families within the same brand, such as separate fonts for headings, paragraphs, and other text roles',
-      'Made typography configuration part of the global design system so font choices automatically propagate throughout the entire website',
-      'Integrated Next.js MDX support, allowing brands to create rich content and use custom React components alongside standard documentation',
-      'Designed the component architecture so brands could extend their brand books with custom components without modifying the platform core',
-      'Separated branding configuration, content, and presentation logic to improve maintainability and make the system easier to scale',
-    ],
-
-    results: [
-      'Created a reusable platform capable of generating complete brand book websites from configuration data',
-      'Reduced the need to build a separate website and codebase for every new brand',
-      'Enabled extensive visual customization, including themes, colors, typography, and multiple font roles',
-      'Allowed brands to combine structured brand documentation with custom interactive React components through MDX',
-      'Established a scalable foundation for a commercial white-label brand book product',
-      'Turned the brand book from a static document into a flexible, extensible digital platform that could evolve with each brand',
     ],
   },
 ]
