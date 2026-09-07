@@ -11,8 +11,8 @@ import { TiltCard } from '../ui/tilt-card'
 
 const CAPS = [
   {
-    title: 'Config-driven UI systems',
-    body: 'Question editors, brand platforms and layouts that render themselves from JSON — new variants ship without touching component code.',
+    title: 'Complex problem solving',
+    body: 'Breaking down complex requirements into maintainable solutions — from application logic and state to data flows, integrations and edge cases.',
     icon: Boxes,
     bg: '#10938C',
     text: '#F3ECDC',

@@ -20,8 +20,8 @@ export function Bio() {
           </span>
         </h1>
         <p className='mt-8 max-w-xl text-[15px] leading-relaxed text-ink/80 sm:text-base'>
-          I'm a frontend developer with nearly three years building production
-          web applications in React, Next.js, and TypeScript. I work at the seam
+          I'm a frontend developer with three years building production web
+          applications in React, Next.js, and TypeScript. I work at the seam
           between UI/UX and engineering — reusable design systems, REST API
           integration, state management, and JSON-driven rendering for
           multilingual, RTL support products. I care about pixel-accuracy,
